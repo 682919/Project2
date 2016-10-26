@@ -1,25 +1,18 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="160" x="140" y="133">
-    <next>
-      <block type="robot_delay" id="272" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="279">
-            <field name="NUM">1000</field>
-          </block>
-        </value>
-        <next>
-          <block type="robot_delay" id="256" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="263">
-                <field name="NUM">2000</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_stop" id="72"></block>
-            </next>
-          </block>
-        </next>
+  <block type="movement_forward" id="160" x="472" y="146"></block>
+  <block type="robot_delay" id="256" inline="true" x="26" y="179">
+    <value name="DELAY">
+      <block type="math_number" id="263">
+        <field name="NUM">2000</field>
       </block>
-    </next>
+    </value>
   </block>
+  <block type="math_arithmetic" id="302" inline="true" x="268" y="172">
+    <field name="OP">ADD</field>
+  </block>
+  <block type="procedures_defreturn" id="323" inline="false" x="335" y="223">
+    <mutation></mutation>
+    <field name="NAME">functionName</field>
+  </block>
+  <block type="movement_stop" id="72" x="126" y="330"></block>
 </xml>
