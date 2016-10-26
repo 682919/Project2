@@ -2,7 +2,7 @@
   <block type="movement_forward" id="160" x="152" y="80">
     <next>
       <block type="variables_set" id="189" inline="true">
-        <field name="VAR">item</field>
+        <field name="VAR">Go</field>
         <value name="VALUE">
           <block type="math_number" id="196">
             <field name="NUM">30</field>
