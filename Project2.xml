@@ -1,10 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_reverse" id="10" x="156" y="91">
     <next>
-      <block type="variables_set" id="118" inline="true">
-        <field name="VAR">item</field>
-        <value name="VALUE">
-          <block type="math_number" id="125">
+      <block type="movement_leftmotor" id="142" inline="true">
+        <value name="MOVLEFT">
+          <block type="math_number" id="149">
             <field name="NUM">30</field>
           </block>
         </value>
