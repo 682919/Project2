@@ -1,11 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="160" x="152" y="80">
+  <block type="movement_forward" id="160" x="140" y="133">
     <next>
-      <block type="variables_set" id="189" inline="true">
-        <field name="VAR">Go</field>
-        <value name="VALUE">
-          <block type="math_number" id="196">
-            <field name="NUM">30</field>
+      <block type="robot_delay" id="272" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="279">
+            <field name="NUM">1000</field>
           </block>
         </value>
         <next>
